@@ -28,3 +28,5 @@ The program will now run everytime the PC starts up and the specified user logs 
 The scheduled task can be deleted either from the Task Scheduler or by running "Stop_and_Delete_KeyLogger_Task.bat" as administrator.
 
 The output file can be obtained from the computer being logged through a tftp, ftp, sftp, samba, etc server hosted on it or by using some kind of a reverse shell.
+
+PS: This program is only meant as a proof-of-concept. I do not take any responsibility for any misuse or harm arising from the usage of this program.
