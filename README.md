@@ -13,7 +13,7 @@ This is a keylogger program written in C which utilises Windows' Keyboard Hooks.
 # How to Use
 
 As a standalone one-time program:
-1) Run the program (or compile it yourself using GCC and then run) as administrator. Administrator privileges are required because the hard-coded output file-path is "C:\Windows\KeyLogger.txt". This can be tweaked in the source code as required.
+1) Run the program (or compile it yourself using GCC and then run) as administrator. Administrator privileges are required because the hard-coded output file-path is "C:\Windows\keylog.txt". This can be tweaked in the source code as required.
 2) The output file "keylog.txt" contains the recordings.
 3) The program will run for as long as the windows session exists. That is, until you log off, shutdown or restart your computer. You can also kill the program using the Task Manager. Doing so will not corrupt the output file.
 
