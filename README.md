@@ -1,5 +1,6 @@
 # KeyLoggerWindowsHooks
 This is a keylogger program written in C which utilises Windows' Keyboard Hooks.
+If you don't know what a keylogger is, check https://en.wikipedia.org/wiki/Keystroke_logging.
 
 # Features
 
@@ -11,6 +12,8 @@ This is a keylogger program written in C which utilises Windows' Keyboard Hooks.
 6) Scope of keystroke captures is limited by execution environment privileges. That is, if the program is run as a non-admin user, then only keystrokes in contexts lower than the administrator level will be recorded.
 
 # How to Use
+
+The included executable is compiled for 64-bit Windows but you can recompile the program for 32-bit Windows from the source code.
 
 As a standalone one-time program:
 1) Run the program (or compile it yourself using GCC and then run) as administrator. Administrator privileges are required because the hard-coded output file-path is "C:\Windows\keylog.txt". This can be tweaked in the source code as required.
