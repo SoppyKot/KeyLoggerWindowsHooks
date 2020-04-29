@@ -1,5 +1,5 @@
 # KeyLoggerWindowsHooks
-This is a keylogger program written in C which utilises Windows' Keyboard Hooks.
+This is an API-based keylogger program written in C which utilises Windows' Keyboard Hooks.
 If you don't know what a keylogger is, check https://en.wikipedia.org/wiki/Keystroke_logging.
 
 # Features
